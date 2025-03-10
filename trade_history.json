@@ -12,5 +12,12 @@
         "date": "1741586400000",
         "symbol": "BTCUSDT",
         "id": 2
+    },
+    {
+        "action": "BUY",
+        "price": 82268.27,
+        "date": "1741586400000",
+        "symbol": "BTCUSDT",
+        "id": 3
     }
 ]

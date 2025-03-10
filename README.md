@@ -1,1 +1,0 @@
-# BTCUSDT (2h Timeframe) Signal
