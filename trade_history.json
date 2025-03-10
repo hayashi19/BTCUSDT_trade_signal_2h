@@ -1,0 +1,16 @@
+[
+    {
+        "action": "BUY",
+        "price": 82289.03,
+        "date": "1741586400000",
+        "symbol": "BTCUSDT",
+        "id": 1
+    },
+    {
+        "action": "BUY",
+        "price": 82216.81,
+        "date": "1741586400000",
+        "symbol": "BTCUSDT",
+        "id": 2
+    }
+]
