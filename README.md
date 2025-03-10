@@ -23,7 +23,7 @@
 
 
 ## <a name="_toc192515960"></a>**Deskripsi**
-![](Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.001.png)
+![](README/Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.001.png)
 
 Aplikasi ini digunakan untuk menentukan sinyal trading pada pasangan BTC/USDT. Aplikasi ini memberikan output akhir berupa sinyal Hold, Buy, atau Sell.
 
@@ -51,7 +51,7 @@ Aplikasi ini diharapkan dapat menjadi tambahan informasi dalam membantu pengambi
 1. Pengguna bertanggung jawab atas keputusan trading masing-masing.
 
 ## <a name="source-code"></a><a name="_toc192513061"></a><a name="_alur_kerja_aplikasi"></a><a name="_toc192515962"></a>**Alur Kerja Aplikasi**
-![](Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.002.png)
+![](README/Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.002.png)
 
 1. Aplikasi dimulai, pengguna membuka aplikasi. Hanya terdapat tombol untuk mendapatkan sinyal trading. 
 1. Pengguna menekan tombol. Sistem mengirim permintaan ke API exchange. 
@@ -72,46 +72,54 @@ Untuk dapat menggunakan aplikasi ini, anda dapat mengunduh source code. Nanti da
 
 2. Pastikan git sudah terinstall di perangkat anda. Anda dapat menggunakan command:
 
+```sh
 git --version
+```
 
 Check Git Jika belum ada dapat melihat panduan berikut <https://git-scm.com/downloads>. Hasilnya dapat dilihat pada gambar dibawah.
 
-![](Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.004.png)
+![](README/Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.004.png)
 
 3. Jika git sudah terinstall, ganti direktori ke tempat anda ingin menyimpan project.
 
+```sh
 cd <save\_directory>
+```
 
 Anda dapat mengganti *<save\_directory>* dengan alamat direktori yang anda inginkan seperti cd Document. Hasilnya dapat dilihat pada gambar dibawah.
 
-![](Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.005.png)
+![](README/Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.005.png)
 
 4. **Clone repository** dengan perintah berikut:
 
+```sh
 git clone https://github.com/hayashi19/BTCUSDT\_trade\_signal\_2h.git
+```
 
 Hasilnya dapat dilihat pada gambar dibawah.
 
-![](Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.006.png)
+![](README/Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.006.png)
 
 5. Masuk ke direktori proyek yang baru di-clone:
 
+```sh
 cd BTCUSDT\_trade\_signal\_2h
+```
 
 Hasilnya dapat dilihat pada gambar dibawah.
 
-![](Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.007.png)
+![](README/Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.007.png)
 
 6. Lanjut ke installasi depedensi di bagian [Dependensi](#dependensi)
 ### <a name="cara-2-download-manual"></a><a name="_toc192513063"></a><a name="_toc192515966"></a>**(Cara 2) Download Manual**
 1. Buka link berikut https://github.com/hayashi19/BTCUSDT\_trade\_signal\_2h.
 2. Klik tombol code yang berwarna hijau. Hasilnya dapat dilihat pada gambar dibawah.
 
-![](Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.008.png)
+![](README/Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.008.png)
 
 3. Klik tombol download zip yang diberi kotak merah. Hasilnya dapat dilihat pada gambar dibawah.
 
-![](Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.009.png)
+![](README/Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.009.png)
 
 4. Extrak file zip (BTCUSDT\_trade\_signal\_2h) yang telah di download.
 5. Pindahkan folder (BTCUSDT\_trade\_signal\_2h) ke direktori yang anda inginkan.
@@ -125,11 +133,13 @@ Contoh C:\Users\hayashi\Documents\BTCUSDT\_trade\_signal\_2h
 
 8. Pindah ke direktori folder (BTCUSDT\_trade\_signal\_2h).
 
+```sh
 cd <project\_directory>
+```
 
 Atau contoh cd C:\Users\hayashi\Documents\BTCUSDT\_trade\_signal\_2h CD.  Hasilnya dapat dilihat pada gambar dibawah.
 
-![](Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.010.png)
+![](README/Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.010.png)
 
 9. Lanjut ke installasi depedensi di bagian [Dependensi](#dependensi)
 ## <a name="dependensi"></a><a name="_toc192513064"></a><a name="_dependensi"></a><a name="_toc192515967"></a>**(Tahap 2) Dependensi**
@@ -137,63 +147,73 @@ Proses ini merupakan proses lanjutan dari bagian sebelumnya [Source Code](#sourc
 
 1. Pastikan python tersedia pada perangkat anda.
 
+```sh
 python --version
+```
 
 Hasilnya dapat dilihat pada gambar dibawah.
 
-![](Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.011.png)
+![](README/Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.011.png)
 
 Jika belum ada anda dapat mengistall python lewat <https://www.python.org/downloads/>.
 
 2. Buat virtual environment
 
+```sh
 python -m venv venv
+```
 
 Hasilnya dapat dilihat pada gambar dibawah.
 
-![](Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.012.png)
+![](README/Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.012.png)
 
 3. Aktifkan virtual environment
 
+```sh
 venv\Scripts\activate
+```
 
 Hasilnya dapat dilihat pada gambar dibawah.
 
-![](Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.013.png)
+![](README/Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.013.png)
 
 4. Instal dependensi dari ***requirements.txt***
 
+```sh
 pip install -r requirements.txt
+```
 
 <a name="_hlk192514731"></a>Hasilnya dapat dilihat pada gambar dibawah.
 
-![](Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.014.png)
+![](README/Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.014.png)
 
 5. Lanjut menjalakan aplikasi di bagian [Run](#_run).
 
 ## <a name="run"></a><a name="_toc192513065"></a><a name="_run"></a><a name="_toc192515968"></a>**(Tahap 3) Run**
 1. Jalakan perintah berikut
 
+```sh
 streamlit run streamlit\_app.py
+```
 
 Setelah scrip dijalanka maka akan terlihat alamat hosting untuk melihat tampilanya. Hasilnya dapat dilihat pada gambar dibawah.
 
-![](Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.015.png)
+![](README/Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.015.png)
 
 2. Klik salah satu link local maupun network, maka window browser baru akan terbuka. Hasilnya dapat dilihat pada gambar dibawah.
 
-![](Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.016.png)
+![](README/Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.016.png)
 
 3. Penjelasan penggunaan dapat dilihat pada bagian [Penggunaan](#_peggunaan).
 
 ## <a name="_peggunaan"></a><a name="_toc192515969"></a>**(Tahap 4) Peggunaan**
 4. Anda dengan mudah mendapatkan sinyal trading dengan cara menekan tombol **Get Signal.** Hasilnya dapat dilihat pada gambar dibawah.
 
-![](Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.017.png)
+![](README/Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.017.png)
 
 5. Maka aplikasi akan melakukan proses yang seperti dijelaskan pada bagian [alur kerja aplikasi](#_alur_kerja_aplikasi).
 6. Dan hasilnya berupa sinyal trading *hold, buy*, atau *sell*. Hasilnya dapat dilihat pada gambar dibawah.
 
-![](Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.018.png)
+![](README/Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.018.png)
 
-[ref1]: Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.003.png
+[ref1]: README/Aspose.Words.c86969ba-3f2a-4e57-a941-f4376290fe8f.003.png
